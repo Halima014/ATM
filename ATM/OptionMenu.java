@@ -36,7 +36,7 @@ public class OptionMenu {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("\nInvalid Character(s). Only Numbers.\n");
-                menuInput.next(); // Clear the invalid input
+                menuInput.next(); 
             }
         } while (x == 1);
     }
